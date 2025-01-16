@@ -11,6 +11,8 @@ import requests
 import json 
 import numpy as np
 
+pip3 install newspaper3k
+
 from newspaper import Article, ArticleException
 from langchain.text_splitter import TokenTextSplitter
 from langchain.chains.summarize import load_summarize_chain
